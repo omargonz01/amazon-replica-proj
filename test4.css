@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Yantramanav', sans-serif;
+}
+
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 100px;
+}
+
+.navbar img {
+    max-width: 150px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border: solid darkgrey;
+    border-radius: 1px;
+    padding: 10px;
+    width: 350px;
+    margin: 50px auto;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 8px;
+  }
+
+h1 {
+    margin-bottom: 5px;
+  }
+
+input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+}
+
+button {
+    width: 103%;
+    padding:10px;
+    background-color: #f0c14b;
+    color: #111;
+    border: darkgrey;
+    border-radius: 1px;
+    font-weight: bold;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+#forgot{
+    display:inline;
+    flex-direction: row;
+    align-items: end;
+    color:#007bff;
+}
+.flexbox-container{
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    margin: 20px auto;
+    font-size: 14px;
+    color:darkgrey
+}
+.flex-item{
+    width: 180px;
+    height:10px;
+}
+.create{
+    display: flex;
+    justify-content:center;
+    width:350px;
+    margin:20px auto;
+    border:solid darkgrey;
+    background-color: lightgrey;
+    font-size: small;
+}
+.flex-item4{
+    color:#007bff;
+}
+.flex-item5{
+    color:#007bff
+}
+.flex-item6{
+    color:#007bff
+}
+#done{
+    display: flex;
+    justify-content:center;
+    width:350px;
+    margin:30px auto;
+    font-size: small;
+}
